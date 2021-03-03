@@ -402,6 +402,16 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .margin {
+        margin-top: 100px;
+    }
+    .height {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -655,6 +665,10 @@ a {
     color: #575757!important;
 }
 
+label {
+    font-size: 20px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -779,6 +793,14 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.height {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.line {
+    border: 10px solid #C55423;
+}
 
 .bgc-dark-slate-blue {
     background-color: #364577;
@@ -791,9 +813,6 @@ h4 {
 .tc-white {
     color: #ffffff!important;
 }
-.tc-brown {
-    color : #000000!important;
-}
 
 .btn-atomic-tangerine {
     background: #C55423;
@@ -801,7 +820,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #C55423!important;
+    background: #b67b62!important;
     color: #FFFFFF!important;
 }
 
